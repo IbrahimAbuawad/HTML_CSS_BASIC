@@ -1,0 +1,580 @@
+* {
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+body {
+	word-wrap: break-word;
+
+}
+button{
+	cursor: pointer;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+.containerB {
+	width: 100%;
+	margin: auto;
+}
+
+.header .slider {
+	height: 600px;
+	background-image: url("../pic/popup-video-poster-01-1170x600.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.header .navbar {
+	background-color: #252f31;
+	color: #FFF;
+	overflow: hidden;
+
+}
+
+.header .navbar h2 {
+	float: left;
+	text-transform: uppercase;
+}
+
+.header .navbar h2 span {
+	color: #2ecc71;
+}
+
+.header .navbar ul {
+	list-style: none;
+	padding-left: 0px;
+	overflow: hidden;
+	float: right;
+
+}
+
+.header .navbar ul li {
+	text-align: center;
+	padding: 10px;
+	float: left;
+
+}
+.header .slider .intro {
+	margin: 0px;
+	padding-top: 300px;
+	text-align: center;
+	color: #28282a;
+
+}
+
+.header .slider .intro h2 {
+	margin: auto;
+	font-size: 50px;
+	width: 90%;
+	text-align: center;
+	border-top: 5px solid #28282a;
+	border-bottom: 5px solid #28282a;
+	padding: 5px;
+
+
+}
+
+.header .slider .intro button {
+	background: none;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #28282a;
+	padding: 10px 20px;
+	text-align: center;
+}
+.header .slider .intro button:hover{
+	background-color: #111;
+	color: white;
+}
+
+.header .navbar ul a {
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+.header .navbar ul .active a,
+.header .navbar ul a:hover {
+
+	color: green;
+}
+
+.features {
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.features .feat {
+	float: left;
+	width: 33.33333%;
+	height: auto;
+}
+
+.features .feat h2 {
+	color: #555;
+}
+
+.features .feat p {
+	line-height: 1.7;
+	color: #888;
+	padding-right: 20px;
+}
+
+.about-me {
+	background-color: #F2F2F2;
+	overflow: hidden;
+	height: auto;
+}
+
+.about-me .image {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.about-me .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.about-me .info {
+	float: left;
+	width: 70%;
+}
+
+.about-me .info .above h2 {
+	margin: 40px 0 20px 45px;
+}
+
+.about-me .info .above p {
+	padding: 0px 40px 10px 45px;
+	line-height: 1.7;
+	color: #555;
+}
+
+.about-me .info p {
+	line-height: 1.6;
+	color: #555;
+
+}
+
+.about-me .info .hobbies {
+	overflow: hidden;
+	padding: 0 0 0 45px;
+}
+
+.content .icon img {
+	width: 60%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+
+.about-me .info .hobbies .content {
+	float: left;
+	width: 50%;
+	min-height: 100px;
+
+	padding: 0 40px 0 0;
+}
+
+.about-me .info .hobbies .content h3 {
+	color: #333;
+}
+
+.about-me .info .hobbies .content .text {
+	float: left;
+	width: 80%;
+}
+
+.about-me .info .hobbies .content {}
+
+.content .icon {
+	width: 20%;
+	float: left;
+
+
+
+}
+
+
+.my-skills {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	overflow: hidden;
+
+}
+
+.my-skills h2 {
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+
+.my-skills p {
+	margin: 0 0 10px 40px;
+	line-height: 1.7;
+	color: #666;
+}
+
+.my-skills p:last-of-type {
+	margin: 0 0 40px 40px;
+	line-height: 1.7;
+	color: #666;
+}
+
+.my-skills .skills button {
+	margin: 0 0 0 40px;
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #2ecc71;
+	padding: 7px 25px;
+	text-align: center;
+	color: #2ecc71;
+	
+}
+.my-skills .skills button:hover{
+	background-color: #2ecc71;
+	color: white;
+}
+
+.my-skills .progress .technique h3 {
+	color: #555;
+}
+
+.my-skills .progress .technique {
+	margin-left: 50px;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+	width: 50%;
+	float: left;
+}
+
+.my-skills .progress .technique div {
+	background-color: #F2F2F2;
+	height: 25px;
+}
+
+.my-skills .progress .technique div span {
+	background-color: #2ecc71;
+	height: 25px;
+	display: block;
+	padding-top: 3px;
+	padding-right: 8px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+}
+
+.resume {
+	background-color: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	text-align: center;
+}
+
+.resume h2 {
+	color: #555;
+}
+
+.resume p {
+	color: #555;
+	line-height: 1.6;
+}
+
+.resume button {
+	margin-top: 20px;
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #2ecc71;
+	padding: 7px 25px;
+	text-align: center;
+	color: #2ecc71;
+}
+.resume button:hover{
+	background-color: #2ecc71;
+	color: white;
+}
+.my-education {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+
+}
+
+.my-education .main {}
+
+.my-education .main p {
+	margin: 0 0 10px 0;
+	line-height: 1.7;
+	color: #666;
+}
+
+.my-education .main h2 {
+	margin: 5px 0 20px 0;
+	color: #555;
+}
+
+.my-education .main {
+	width: 50%;
+	float: left;
+
+	margin: 0 0 0 0px;
+	line-height: 1.7;
+	color: #666;
+}
+
+.my-education .exp {
+	float: left;
+	width: 50%;
+}
+
+.my-education .exp .right-content {
+	padding-top: 49px;
+	padding-left: 40px;
+	color: #666;
+	line-height: 1.6
+}
+
+.my-education .exp .right-content h3 {
+	color: #555;
+	margin-top: 20px;
+
+}
+
+.my-education .exp .right-content span {
+	display: block;
+}
+
+.my-education .exp .right-content span:last-of-type {
+	margin-top: 15px;
+	margin-bottom: 40px;
+	background: #2ecc71;
+	color: white;
+	padding: 3px;
+	display: inline;
+	text-align: center;
+	font-size: small;
+}
+
+.my-education .right-content .exp p {}
+
+.clear {
+	clear: both;
+}
+
+.testmon {
+	background-color: #F2F2F2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: center;
+}
+
+.testmon p {
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #555;
+	font-family: monospace;
+}
+
+.testmon h4 {
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #333;
+	font-family: monospace;
+}
+
+.testmon ul {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+.testmon ul li {
+	width: 10px;
+	height: 10px;
+	background: none;
+	border: 2px solid #2ecc71;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.testmon ul li:hover,
+.testmon ul li.active {
+	background-color: #2ecc71;
+}
+
+.photos {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+
+.photos h2 {
+	color: #555;
+	margin-bottom: 30px;
+}
+
+.photos p {
+	margin-bottom: 30px;
+	color: #666;
+
+}
+
+.photos .our-work {
+	overflow: hidden;
+}
+
+.photos .our-work > div {
+	float: left;
+	width: 33.33333%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+.photos .our-work img {
+	width: 95%;
+	height: 220px;
+	padding: 3px;
+	box-shadow: 2px 10px 10px #ccc;
+	border: 1px solid #ccc;
+
+
+}
+
+.contact {
+	background-color: #252F31;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.contact h2 {
+	color: #FFF;
+}
+
+.contact .info p {
+	color: #6A6E71;
+	line-height: 1.6;
+}
+
+.contact .info > p:nth-last-of-type(2) {
+	font-style: italic;
+}
+
+.contact .info p b {
+	color: #c1c7cb;
+}
+
+.contact .info {
+	padding-right: 60px;
+}
+
+.contact .info,
+.contact .form {
+	width: 50%;
+	float: left;
+}
+
+.contact .form  label {
+	display: block;
+	margin-top: 20px;
+	color: #bec2c2;
+}
+
+.contact .form  input {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 78%;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #4b5557;
+	border: 0;
+	color: white;
+
+}
+.contact .form input[type="submit"]{
+	background-color: #191e22;
+ 	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+width: auto;
+	display: block;
+	cursor: pointer;
+	font-family: sans-serif;
+	
+}
+.contact .form  input[type="submit"]:hover{
+	background-color: #999;
+	color:black;
+}
+.contact .form  textarea{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 78%;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #4b5557;
+	border: 0;
+	color: white;
+}
+
+
+
+
+
+
+.footer {
+	background-color: #191E22;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #999999;
+	
+}
+.footer .left{
+	float: left;
+}
+.footer .right{
+	float: right;
+}
+.footer ul{
+	text-decoration: none;
+	margin-top: 0px;
+	
+	
+}
+.footer ul li{
+	text-decoration: none;
+	display: inline-block;
+	
+}
+.footer ul li a {
+
+	display:inline-block;
+}
+
+.footer ul li a i{
+	width: 10px;
+}
+.fa-twitter-square{
+}
